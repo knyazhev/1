@@ -13,8 +13,9 @@
             <div>
                 <?php foreach($stat as $a):?>
                 <div class = 'stat_box'>
-                    <h3 class="stat_name"><?=$a['title']?>:<?=$a['value']?></h3>
+                    <a href="stat_info.php?id=<?=$a['id']?>"><?=$a['title']?>:<?=$a['value']?></a>
                    <em>Information actuality:<?=$a['time']?></em> 
+                <?php endforeach?>
                 </div>
             
             </div>
