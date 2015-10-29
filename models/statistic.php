@@ -34,6 +34,4 @@ function stat_get($link,$id_stat){
         }
     return $stat_info;
 }
-
-
 ?>
